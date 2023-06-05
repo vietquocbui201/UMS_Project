@@ -1,0 +1,630 @@
+.alert a,
+.callout a {
+    text-decoration: underline
+}
+@supports not (-webkit-touch-callout:none) {
+    .layout-fixed.text-sm .wrapper .sidebar {
+        height: calc(100vh - (2.93725rem + 1px))
+    }
+}
+@supports (-webkit-touch-callout:none) {
+    .layout-fixed .main-sidebar {
+        height: inherit
+    }
+}
+.callout,
+.small-box {
+    border-radius: .25rem
+}
+
+.callout {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    background-color: #fff;
+    border-left: 5px solid #e9ecef;
+    margin-bottom: 1rem;
+    padding: 1rem
+}
+.callout a {
+    color: #495057
+}
+
+.callout a:hover {
+    color: #e9ecef
+}
+
+.callout.callout-danger {
+    border-left-color: #bd2130
+}
+
+.callout.callout-warning {
+    border-left-color: #d39e00
+}
+
+.callout.callout-info {
+    border-left-color: #117a8b
+}
+
+.callout.callout-success {
+    border-left-color: #1e7e34
+}
+
+.card-header>.card-tools [data-toggle=tooltip],
+.carousel,
+.collapsing,
+.dropdown,
+.dropdown-submenu,
+.dropleft,
+.dropright,
+.dropup,
+.form-group.has-icon,
+.mapael .map,
+.nav-sidebar,
+.nav-sidebar .nav-item>.nav-link,
+.navbar-custom-menu>.navbar-nav>li,
+.tab-pane>.overlay-wrapper,
+.user-panel,
+.wrapper {
+    position: relative
+}
+
+.card.card-tabs .card-tools {
+    margin: .3rem .5rem
+}
+.card.card-outline-tabs .card-tools {
+    margin: .5rem .5rem .3rem
+}
+.card-header>.card-tools {
+    float: right;
+    margin-right: -.625rem
+}
+
+.card-header>.card-tools .input-group,
+.card-header>.card-tools .nav,
+.card-header>.card-tools .pagination {
+    margin-bottom: -.3rem;
+    margin-top: -.3rem
+}
+.card-title {
+    float: left;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0
+}
+.h6,
+.small-box p,
+.text-sm .card-title,
+h6 {
+    font-size: 1rem
+}
+
+.card.card-outline-tabs .card-header a.active:hover,
+.input-group-text input[type=checkbox],
+.input-group-text input[type=radio],
+.invoice-title,
+.layout-navbar-not-fixed .wrapper .content-wrapper,
+.layout-navbar-not-fixed .wrapper .sidebar,
+.layout-navbar-not-fixed.layout-fixed .wrapper .sidebar,
+.list-group-horizontal .list-group-item.active,
+.widget-user .widget-user-desc,
+.widget-user-2 .widget-user-desc,
+dl,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+pre,
+ul {
+    margin-top: 0
+}
+.btn-group-toggle>.btn,
+.btn-group-toggle>.btn-group>.btn,
+.callout p:last-child,
+.card-body>.table,
+.card-header,
+.card-text:last-child,
+.card.card-outline-tabs:not(.expanding-card).collapsed-card .card-header .nav-tabs .nav-item,
+.card.card-tabs:not(.expanding-card).collapsed-card .card-header .nav-tabs .nav-item,
+.form-check-label,
+.layout-footer-not-fixed .wrapper .content-wrapper,
+.nav-sidebar>.nav-item,
+.projects .list-inline,
+.todo-list>li:last-of-type,
+blockquote p:last-child,
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+    margin-bottom: 0
+}
+.btn-group>.btn-group:not(:first-child),
+.btn-group>.btn:not(:first-child),
+.card.card-tabs:not(.card-outline)>.card-header .nav-item:first-child .nav-link,
+.input-group-append,
+.input-group-append .btn+.btn,
+.input-group-append .btn+.input-group-text,
+.input-group-append .input-group-text+.btn,
+.input-group-append .input-group-text+.input-group-text,
+.input-group-prepend .btn+.btn,
+.input-group-prepend .btn+.input-group-text,
+.input-group-prepend .input-group-text+.btn,
+.input-group-prepend .input-group-text+.input-group-text,
+.input-group>.custom-file+.custom-file,
+.input-group>.custom-file+.custom-select,
+.input-group>.custom-file+.form-control,
+.input-group>.custom-select+.custom-file,
+.input-group>.custom-select+.custom-select,
+.input-group>.custom-select+.form-control,
+.input-group>.form-control+.custom-file,
+.input-group>.form-control+.custom-select,
+.input-group>.form-control+.form-control,
+.input-group>.form-control-plaintext+.custom-file,
+.input-group>.form-control-plaintext+.custom-select,
+.input-group>.form-control-plaintext+.form-control {
+    margin-left: -1px
+}
+.card.card-outline-tabs.expanding-card .card-header .nav-tabs .nav-item,
+.card.card-tabs.expanding-card .card-header .nav-tabs .nav-item,
+.nav-tabs .nav-item {
+    margin-bottom: -1px
+}
+.bg-danger .btn-tool:hover,
+.bg-dark .btn-tool:hover,
+.bg-gradient-danger .btn-tool:hover,
+.bg-gradient-dark .btn-tool:hover,
+.bg-gradient-info .btn-tool:hover,
+.bg-gradient-primary .btn-tool:hover,
+.bg-gradient-secondary .btn-tool:hover,
+.bg-gradient-success .btn-tool:hover,
+.bg-info .btn-tool:hover,
+.bg-primary .btn-tool:hover,
+.bg-secondary .btn-tool:hover,
+.bg-success .btn-tool:hover,
+.card-danger:not(.card-outline) .btn-tool:hover,
+.card-danger:not(.card-outline)>.card-header,
+.card-danger:not(.card-outline)>.card-header a,
+.card-dark:not(.card-outline) .btn-tool:hover,
+.card-dark:not(.card-outline)>.card-header,
+.card-dark:not(.card-outline)>.card-header a,
+.card-info:not(.card-outline) .btn-tool:hover,
+.card-info:not(.card-outline)>.card-header,
+.card-info:not(.card-outline)>.card-header a,
+.card-primary:not(.card-outline) .btn-tool:hover,
+.card-primary:not(.card-outline)>.card-header,
+.card-primary:not(.card-outline)>.card-header a,
+.card-secondary:not(.card-outline) .btn-tool:hover,
+.card-secondary:not(.card-outline)>.card-header,
+.card-secondary:not(.card-outline)>.card-header a,
+.card-success:not(.card-outline) .btn-tool:hover,
+.card-success:not(.card-outline)>.card-header,
+.card-success:not(.card-outline)>.card-header a,
+.card.bg-dark,
+.card.bg-dark .card-body,
+.control-sidebar-dark a:hover,
+.control-sidebar-dark h1,
+.control-sidebar-dark h2,
+.control-sidebar-dark h3,
+.control-sidebar-dark h4,
+.control-sidebar-dark h5,
+.control-sidebar-dark h6,
+.control-sidebar-dark label,
+.info-box .info-box .bg-danger,
+.info-box .info-box .bg-dark,
+.info-box .info-box .bg-gradient-danger,
+.info-box .info-box .bg-gradient-dark,
+.info-box .info-box .bg-gradient-info,
+.info-box .info-box .bg-gradient-primary,
+.info-box .info-box .bg-gradient-secondary,
+.info-box .info-box .bg-gradient-success,
+.info-box .info-box .bg-info,
+.info-box .info-box .bg-primary,
+.info-box .info-box .bg-secondary,
+.info-box .info-box .bg-success,
+.nav-pills .nav-item.dropdown.show .nav-link:hover,
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-text a,
+.navbar-dark .navbar-text a:focus,
+.navbar-dark .navbar-text a:hover,
+.timeline>div>.timeline-item>.timeline-footer>a,
+[class*=sidebar-dark-] .user-panel a:hover,
+[class*=sidebar-dark] .nav-legacy.nav-sidebar>.nav-item>.nav-link.active {
+    color: #fff
+}
+.card-header+.list-group .list-group-item:first-child,
+.card.card-outline-tabs {
+    border-top: 0
+}
+#toast-container .toast,
+.card-primary:not(.card-outline)>.card-header {
+    background-color: #007bff
+}
+.bg-gradient-light .btn-tool:hover,
+.bg-gradient-warning .btn-tool:hover,
+.bg-gradient-white .btn-tool:hover,
+.bg-light .btn-tool:hover,
+.bg-warning .btn-tool:hover,
+.bg-white .btn-tool:hover,
+.card-danger:not(.card-outline)>.card-header a.active,
+.card-dark:not(.card-outline)>.card-header a.active,
+.card-info:not(.card-outline)>.card-header a.active,
+.card-light:not(.card-outline) .btn-tool:hover,
+.card-light:not(.card-outline)>.card-header,
+.card-light:not(.card-outline)>.card-header a,
+.card-light:not(.card-outline)>.card-header a.active,
+.card-primary:not(.card-outline)>.card-header a.active,
+.card-secondary:not(.card-outline)>.card-header a.active,
+.card-success:not(.card-outline)>.card-header a.active,
+.card-warning:not(.card-outline) .btn-tool:hover,
+.card-warning:not(.card-outline)>.card-header,
+.card-warning:not(.card-outline)>.card-header a,
+.card-warning:not(.card-outline)>.card-header a.active,
+.card-white:not(.card-outline) .btn-tool:hover,
+.card-white:not(.card-outline)>.card-header,
+.card-white:not(.card-outline)>.card-header a,
+.card-white:not(.card-outline)>.card-header a.active,
+.info-box .info-box .bg-gradient-light,
+.info-box .info-box .bg-gradient-warning,
+.info-box .info-box .bg-light,
+.info-box .info-box .bg-warning {
+    color: #1f2d3d
+}
+
+.card-primary.card-outline,
+.card-primary.card-outline-tabs>.card-header a.active {
+    border-top: 3px solid #007bff
+}
+
+.card-danger.card-outline-tabs>.card-header a:hover,
+.card-dark.card-outline-tabs>.card-header a:hover,
+.card-info.card-outline-tabs>.card-header a:hover,
+.card-light.card-outline-tabs>.card-header a:hover,
+.card-primary.card-outline-tabs>.card-header a:hover,
+.card-secondary.card-outline-tabs>.card-header a:hover,
+.card-success.card-outline-tabs>.card-header a:hover,
+.card-warning.card-outline-tabs>.card-header a:hover,
+.card-white.card-outline-tabs>.card-header a:hover,
+.card.card-outline-tabs .card-header a:hover {
+    border-top: 3px solid #dee2e6
+}
+
+.bg-danger .btn-tool,
+.bg-dark .btn-tool,
+.bg-gradient-danger .btn-tool,
+.bg-gradient-dark .btn-tool,
+.bg-gradient-info .btn-tool,
+.bg-gradient-primary .btn-tool,
+.bg-gradient-secondary .btn-tool,
+.bg-gradient-success .btn-tool,
+.bg-info .btn-tool,
+.bg-primary .btn-tool,
+.bg-secondary .btn-tool,
+.bg-success .btn-tool,
+.card-danger:not(.card-outline) .btn-tool,
+.card-dark:not(.card-outline) .btn-tool,
+.card-info:not(.card-outline) .btn-tool,
+.card-primary:not(.card-outline) .btn-tool,
+.card-secondary:not(.card-outline) .btn-tool,
+.card-success:not(.card-outline) .btn-tool {
+    color: rgba(255, 255, 255, .8)
+}
+.card-secondary:not(.card-outline)>.card-header {
+    background-color: #6c757d
+}
+
+.card-secondary.card-outline,
+.card-secondary.card-outline-tabs>.card-header a.active {
+    border-top: 3px solid #6c757d
+}
+#toast-container .toast-success,
+.card-success:not(.card-outline)>.card-header,
+.swal2-icon.swal2-success [class^=swal2-success-line] {
+    background-color: #28a745
+}
+
+.card-success.card-outline,
+.card-success.card-outline-tabs>.card-header a.active {
+    border-top: 3px solid #28a745
+}
+#toast-container .toast-info,
+.card-info:not(.card-outline)>.card-header {
+    background-color: #17a2b8
+}
+
+.card-info.card-outline,
+.card-info.card-outline-tabs>.card-header a.active {
+    border-top: 3px solid #17a2b8
+}
+#toast-container .toast-warning,
+.card-warning:not(.card-outline)>.card-header {
+    background-color: #ffc107
+}
+
+.card-warning.card-outline,
+.card-warning.card-outline-tabs>.card-header a.active {
+    border-top: 3px solid #ffc107
+}
+.bg-gradient-light .btn-tool,
+.bg-gradient-warning .btn-tool,
+.bg-gradient-white .btn-tool,
+.bg-light .btn-tool,
+.bg-warning .btn-tool,
+.bg-white .btn-tool,
+.card-light:not(.card-outline) .btn-tool,
+.card-warning:not(.card-outline) .btn-tool,
+.card-white:not(.card-outline) .btn-tool {
+    color: rgba(31, 45, 61, .8)
+}
+#toast-container .toast-error,
+.card-danger:not(.card-outline)>.card-header {
+    background-color: #dc3545
+}
+
+.card-danger.card-outline,
+.card-danger.card-outline-tabs>.card-header a.active {
+    border-top: 3px solid #dc3545
+}
+.card-light:not(.card-outline)>.card-header {
+    background-color: #f8f9fa
+}
+
+.card-light.card-outline,
+.card-light.card-outline-tabs>.card-header a.active {
+    border-top: 3px solid #f8f9fa
+}
+.card-dark:not(.card-outline)>.card-header {
+    background-color: #343a40
+}
+
+.card-dark.card-outline,
+.card-dark.card-outline-tabs>.card-header a.active {
+    border-top: 3px solid #343a40
+}
+.card-white:not(.card-outline)>.card-header,
+.info-box .info-box .bg-danger .progress-bar,
+.info-box .info-box .bg-dark .progress-bar,
+.info-box .info-box .bg-gradient-danger .progress-bar,
+.info-box .info-box .bg-gradient-dark .progress-bar,
+.info-box .info-box .bg-gradient-info .progress-bar,
+.info-box .info-box .bg-gradient-primary .progress-bar,
+.info-box .info-box .bg-gradient-secondary .progress-bar,
+.info-box .info-box .bg-gradient-success .progress-bar,
+.info-box .info-box .bg-info .progress-bar,
+.info-box .info-box .bg-primary .progress-bar,
+.info-box .info-box .bg-secondary .progress-bar,
+.info-box .info-box .bg-success .progress-bar,
+.info-box .progress .progress-bar {
+    background-color: #fff
+}
+
+.card-white.card-outline,
+.card-white.card-outline-tabs>.card-header a.active {
+    border-top: 3px solid #fff
+}
+.card .nav.flex-column>li:last-of-type,
+.card-comments .card-comment:last-of-type,
+.card.card-outline-tabs:not(.expanding-card).collapsed-card .card-header,
+.card.card-outline-tabs:not(.expanding-card).collapsed-card .card-header .nav-tabs,
+.card.card-tabs.card-outline .nav-item,
+.card.card-tabs:not(.card-outline)>.card-header,
+.card.card-tabs:not(.expanding-card).collapsed-card .card-header,
+.card.card-tabs:not(.expanding-card).collapsed-card .card-header .nav-tabs,
+.collapsed-card .card-header,
+.contacts-list>li:last-of-type {
+    border-bottom: 0
+}
+.card.card-outline-tabs .card-header .nav-item:first-child .nav-link,
+.card.card-tabs.card-outline .nav-item:first-child .nav-link {
+    border-left: 0;
+    margin-left: 0
+}
+.card.card-outline-tabs .card-header a {
+    border-top: 3px solid transparent
+}
+.img-circle {
+    border-radius: 50%
+}
+.img-size-32,
+.size-32 {
+    height: 32px;
+    width: 32px
+}
+
+.img-size-32 {
+    object-fit: cover
+}
+.chat-panel.is-show {
+    display: block;
+}
+.chat-panel {
+    bottom: 0;
+    display: none;
+    position: fixed;
+    right: 16px;
+    z-index: 20;
+}
+.chat-panel .open-chat-btn {
+    align-items: center;
+    background: #fff;
+    border-radius: 12px;
+    bottom: 0;
+    box-shadow: 0 0 8px rgb(0 0 0 / 20%);
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    justify-content: center;
+    padding: 0 16px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+    z-index: 1;
+
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    z-index: 1;
+}
+
+.h-card-header{
+    min-height: 55px!important;
+}
+.accordion>.card,
+.collapsing,
+.modal-open,
+.progress,
+.progress-bar,
+.toast,
+html.maximized-card {
+    overflow: hidden
+}
+.badge:empty,
+.card.collapsed-card .card-body,
+.card.collapsed-card .card-footer,
+.card.maximized-card [data-widget=collapse],
+.navbar-expand .navbar-toggler,
+.popover-header:empty,
+.sidebar-collapse .sidebar-no-expand.main-sidebar.sidebar-focused .nav-header,
+.sidebar-collapse .sidebar-no-expand.main-sidebar:hover .nav-header,
+.tab-content>.tab-pane,
+.toast.hide {
+    display: none
+}
+.card.maximized-card .card-footer,
+.card.maximized-card .card-header,
+.rounded-0 {
+    border-radius: 0 !important
+}
+.card.maximized-card.was-collapsed .card-body,
+.d-block {
+    display: block !important
+}
+.card.maximized-card {
+    height: 100% !important;
+    left: 0;
+    max-height: 100% !important;
+    max-width: 100% !important;
+    position: fixed;
+    top: 0;
+    width: 100% !important;
+    z-index: 9999
+}
+.s-size{
+    min-height: 400px !important;
+    max-height: 400px !important;
+    min-width: 300px !important;
+    max-width: 300px !important;
+}
+.x-size{
+    min-height: 800px !important;
+    max-height: 800px !important;
+    min-width: 450px !important;
+    max-width: 450px !important;
+}
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch-2 {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+}
+
+.switch-2 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+input:checked+.slider {
+    background-color: #bd2130;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #bd2130;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+.btn-del{
+    position: absolute;
+    top: -17px;
+    right: -13px;
+}
+.img-public{
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+.btn-css-last{
+    position: absolute;
+    right: 2%;
+}
